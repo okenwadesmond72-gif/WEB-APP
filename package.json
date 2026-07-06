@@ -1,0 +1,15 @@
+{
+  "name": "task-management-app",
+  "version": "1.0.0",
+  "description": "Professional Task Management Web App",
+  "main": "server/src/server.js",
+  "scripts": {
+    "dev": "cd server && npm run dev",
+    "start": "cd client && npm start",
+    "build": "cd client && npm run build && cd ../server && npm run build",
+    "test": "cd server && npm test"
+  },
+  "keywords": ["task", "management", "productivity"],
+  "author": "Desmond Okenwa",
+  "license": "MIT"
+}
