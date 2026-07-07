@@ -1,3 +1,5 @@
+client/
+server/
 node_modules/
 .env
 .env.local
@@ -8,3 +10,7 @@ node_modules/
 build/
 dist/
 .next
+*.pyc
+.pytest_cache/
+.coverage
+.env.production
